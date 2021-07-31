@@ -149,5 +149,8 @@ text-decoration: none;
     }
     #ema{
         width:50%;
-    }       
+    }  
+    #header-img img{
+       width:19rem;
+    } 
     }
