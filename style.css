@@ -150,6 +150,9 @@ text-decoration: none;
     #ema{
         width:50%;
     }  
+    #submit{
+    width: 23%;
+    }
     #header-img img{
        width:19rem;
     } 
