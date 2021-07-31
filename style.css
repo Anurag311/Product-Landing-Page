@@ -154,7 +154,10 @@ text-decoration: none;
        width:19rem;
     } 
     #container-2{
-margin-left:20%;
-margin-right: 20%;
-}
+    margin-left:20%;
+    margin-right: 20%;
+    }
+   .price-box
+    margin-top:1rem;
+    }   
     }
