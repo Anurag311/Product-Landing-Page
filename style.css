@@ -22,8 +22,13 @@ justify-content:space-between;
     font-size:larger;
 }
 #navbar ul a:hover{
-    background-color: white;
     color: red;
+}
+.navitem{
+    padding:0.5rem 0.5rem 0.2rem 0.5rem;
+}
+.navitem:hover{
+    background-color: white;
 }
 body{
     font-family: 'Playfair Display', 'serif';
