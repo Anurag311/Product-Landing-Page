@@ -1,99 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <meta name="author" content="Anurag">
-        <meta name="description" content="Product Landing Page (Freecodecamp)">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/9650a62e47.js" crossorigin="anonymous"></script>
-        <title>Product Landing Page</title>
+        <meta name="discription" content="Personal Portfolio Webpage">
+        <title>Personal Portfolio Webpage</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-        <header id="main-header">
-            <div id="header-img">
-                <img src="logo.png" alt="logo">
-            </div>
-            <nav id="navbar">
-              <ul>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#pricing">Princing</a></li>
-                <li><a href="#contact-us">Contact us</a></li>
-              </ul>
+        <header>
+            <nav  id="navbar">
+                <ul>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#welcome">About</a></li>
+                </ul>
             </nav>
-        </header>
+            </header>
         <main>
-         <div id="container-1">
-            <p id="form-title">DeliveryExpress</p>
-             <div id="box">
-               <form id="main-form" action="https://www.freecodecamp.org/email-submit">
-               <input id="ema" name="email" type="email" placeholder="Enter your email" autocomplete="email" required><br>
-               <input type="button" name="email" value="Register" id="submit">
-               <!-- <a href="https://www.freecodecamp.org/email-submit" id="submit">Register</a> -->
-            </form>
-             </div>
-             <section id="features">
-                 <div class="feature">
-                    <i id="f1" class="fas fa-dollar-sign fa-3x"></i>
-                    <div>
-                <h3>Fast Delivery</h3>
-                <p>Anytime, anywhere and on time, this is what our service mean.</p>
-            </div>    
+            <section id="welcome">
+              <div id="back-img">
+                <div class="wel-back"><h1 class="wel-title">I am Anurag<br>full stack developer</h1></div>     
             </div>
-                 <div class="feature">
-                    <i id="f2" class="fas fa-truck fa-3x"></i>
-                    <div>
-                <h3>Goods Protection</h3>
-                <p>Your goods are very protect during delivery.</p>
-            </div>   
-            </div>
-             </section>
-             <section id="video-outer">
-                <iframe id="video-inner" src="https://www.youtube.com/embed/hlWiI4xVXKY"></iframe>
-             </section>
-         </div>
-         <div id="container-2">
-             <section id="pricing">
-                 <div class="price-box">
-                <p class="p1">A1 Delivery</p>
-                <p class="p2">$ 1100</p>
-                <p class="p3">Delivery duration : 24 hours</p>
-                <button type="button">SELECT</button>
-                 </div>
-                 <div class="price-box">
-                <p class="p1">A2 Delivery</p>
-                <p class="p2">4 800</p>
-                <p class="p3">Delivery duration : 48 hours</p>
-                <button type="button">SELECT</button>
+            </section>
+            <section id="projects">
+                <div class="p-title">
+                    <p class="title">My Projects</p>
                 </div>
-                <div class="price-box">
-                <p class="p1">A3 Delivery</p>
-                <p class="p2">$ 600</p>
-                <p class="p3">Delivery duration : 72 hours</p>
-                <button type="button">SELECT</button>
-                </div>  
-                <div class="price-box">
-                <p class="p1">A4 Delivery</p>
-                <p class="p2">$ 400</p>
-                <p class="p3">Delivery duration : 96 hours</p>
-                <button type="button">SELECT</button>
-                 </div>   
-             </section>
-            </div>
+                <div class="myprojects">
+                    <div class="pro1">
+                        <a href="https://anurag-tdp.netlify.app/" target="_blank">
+                            <img src="/Images/image1.jpg" alt="Project1" class="img">
+                            <p><b><</b>Project 1<b>></b></p>
+                        </a>
+                    </div>
+                    <div class="pro2">
+                        <a href="https://anurag-plp.netlify.app/"  target="_blank">
+                            <img src="/Images/image2.jpg" alt="Project2" class="img">
+                            <p><b><</b>Project 2<b>></b></p>
+                        </a>
+                    </div>
+                    <div class="pro3">
+                        <a href="https://anurag-survey.netlify.app/"  target="_blank">
+                            <img src="/Images/image3.jpg" alt="Project3" class="img">
+                            <p><b><</b>Project 3<b>></b></p>
+                        </a>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer>
-            <div id="contact-us">
-        <div>
-         <P><a href="#">Privacy</a></P>
-        </div>
-        <div>
-            <P>Copyright <sup>&copy;</sup> 2021 DeliveryExpress. All Rights Reserved</P>
-        </div>
-        <div>
-        <P>Contact No. 122XXXXXX0</P>
-        <p>Email : deliveryX@XXXXX.com</p>
-        </div>
-    </div>
+
         </footer>
     </body>
 </html>
