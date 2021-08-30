@@ -213,7 +213,7 @@ text-decoration: none;
   animation-timing-function:ease-out;
 }
 @keyframes run {
-    0%   { left:-35rem;}
+    0%   { left:-40rem;}
     100%  {left:0.1rem;;}
   }
 #header-img{
