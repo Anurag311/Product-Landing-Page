@@ -208,15 +208,13 @@ text-decoration: none;
     display: block;
     position: relative;
   animation-name: run;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-iteration-count:initial;
   animation-timing-function:ease-out;
 }
 @keyframes run {
-    0%   { left:-55rem;}
-    25%  {left: -55rem;}
-    50%  {left: 1rem;;}
-    100%  {left:1.5rem;;}
+    0%   { left:-35rem;}
+    100%  {left:0.1rem;;}
   }
 #header-img{
     padding-left:2rem;
