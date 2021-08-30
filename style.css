@@ -204,3 +204,20 @@ text-decoration: none;
             margin-top:1rem;
         }     
     }
+#header-img{
+    display: block;
+    position: relative;
+  animation-name: run;
+  animation-duration: 4s;
+  animation-iteration-count:initial;
+  animation-timing-function:ease-out;
+}
+@keyframes run {
+    0%   { left:-55rem;}
+    25%  {left: -55rem;}
+    50%  {left: 1rem;;}
+    100%  {left:1.5rem;;}
+  }
+#header-img{
+    padding-left:2rem;
+}
