@@ -25,7 +25,7 @@ justify-content:space-between;
     color: red;
 }
 .navitem{
-    padding:0.5rem 0.5rem 0.2rem 0.5rem;
+ padding:0.2rem 0.2rem 0.2rem 0.1rem;
 }
 .navitem:hover{
     background-color: white;
