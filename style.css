@@ -76,10 +76,8 @@ body{
 #features .feature i{
     color:red;
 }
-#f1{
-    margin-right:4rem;
-}
-#f2{
+.feat img{
+    width:5rem;
     margin-right:2rem;
 }
 #video-inner{
